@@ -1,1 +1,78 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Trello</title>
+    <!--Agregamos una imagen a nuestra pestaña del navegador-->
+    <link rel="shorcut icon" type="image" href="assets/images/trelloIcon.png">
+    <!--Enlazamos iconos de Font Awesome-->   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Linkeamos nuestro archivo externo main.css para que pueda dar estilo a nuestro documento html-->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!--Estructuramos la parte del navegador de trello-->
+    <nav class="main-menu">
+      <ul>
+        <li class="trello-icon"> <!--Tableros de trello-->
+          <a href="#"><i class="fa fa-trello" aria-hidden="true"></i>Tableros</a>
+        </li>
+        <li class="search">
+          <div class="search-box">
+            <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+            <form action="">
+              <input type="text">
+            </form>       
+          </div>
+        </li>
+        <a href="#"><img src="assets/images/trellologo.svg"></a>
+        <li class="white-icon">
+          <a href="#"><i class="fa fa-plus fa-lg" aria-hidden="true"></i></a>
+        </li>
+        <li class="white-icon">
+          <a href="#"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i></a>
+        </li>
+        <li class="white-icon">
+          <a href="#"><i class="fa fa-bell fa-lg" aria-hidden="true"></i></a>
+        </li>
+        <li class="white-icon">
+          <a href="#"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Creamos la estructura del header que contiene el nombre de tu tablero creado por trello -->
+    <header>
+      <div class="first-container">
+        <h3>Tablero - Reto de Código / Trello</h3>
+        <ul>
+          <li class="header-icon">
+            <a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+          </li>
+          <li class="header-icon">
+            <a href="#"><i class="fa fa-lock" aria-hidden="true"></i></a>
+            Privado
+          </li>
+          <li class="header-right">
+            <a href="#">
+              <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+              Mostrar menú
+            </a>
+          </li>       
+        </ul>
+      </div>
+    </header>
+    <!--Creamos la estructura donde se creara tas nuevas tarjetas o lista en trello-->
+    <section id="container-form">
+        <form>
+          <span class="placeholder">Añadir una lista...</span>
+          <input class="list-name-input" type="text" name="name" placeholder="Añadir una lista..." autocomplete="off" dir="auto" maxlength="512">
+          <div class="list-add-controls">
+              <input class="list-add-button" type="submit" value="Guardar">
+              <a class="icon-lg" href="#"></a>
+          </div>
+        </form>
+    </section>
+    <!--Enlazamos nuestro archivo js extero para darle animacion a cada elemento-->
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

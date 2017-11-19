@@ -1,1 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/images/trellofondo.jpg");
+    background-size: 100%;  
+    font-family: arial;
+}
+
+/*STYLE FOR THW NAV*/
+nav {
+    width: 100%;
+    text-align: justify;
+    background-color: rgba(27, 27, 27, 0.2); /*opacidad para el navegador*/
+    height: 40px;
+    z-index: 1000;
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+nav li {
+    display: inline-block;
+    color: #fff;
+    background:rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    padding: 7px;
+}
+
+nav i {
+    height: 100%;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+img {
+    margin: 0 500px 0 400px;
+    height: 25px;
+}
+
+.search-box form {
+    display: inline-block;
+    width: 85%;
+}
+
+.search-box input { /*estilos para input search*/
+    background-color:transparent;
+    border: none;
+    outline: none; 
+    font-size: 18px;
+    width: 30%;
+}
+
+/* STYLE FOR THE HEADER*/
+header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.first-container h3 {
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+}
+
+.first-container ul {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.first-container li {
+    display: inline-block;
+}
+
+.header-icon i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.header-right a {
+    color: white;
+    margin-left: 950px; 
+}
+
+/*STYLE FOR THE CREATE CONTAINER NEW*/
 
