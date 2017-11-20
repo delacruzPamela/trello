@@ -12,7 +12,7 @@
   </head>
   <body>
     <!--Estructuramos la parte del navegador de trello-->
-    <nav class="main-menu">
+    <nav>
       <ul>
         <li class="trello-icon"> <!--Tableros de trello-->
           <a href="#"><i class="fa fa-trello" aria-hidden="true"></i>Tableros</a>
@@ -62,16 +62,27 @@
       </div>
     </header>
     <!--Creamos la estructura donde se creara tas nuevas tarjetas o lista en trello-->
-    <section id="container-form">
-        <form>
-          <span class="placeholder">Añadir una lista...</span>
-          <input class="list-name-input" type="text" name="name" placeholder="Añadir una lista..." autocomplete="off" dir="auto" maxlength="512">
-          <div class="list-add-controls">
-              <input class="list-add-button" type="submit" value="Guardar">
-              <a class="icon-lg" href="#"></a>
-          </div>
-        </form>
+    <section id="main-menu">
+      <div  id="init" style="display:inline-block; float:left;" class="initial-pre-click">
+        <div id="form" class="form-pre-click">
+          <form action="index.html" method="post">
+            <input type="text" id="input" class="input-pre-click" placeholder="Añadir una lista...." >
+          </form>
+          <input type="submit" id="button" class="pre-click" value="Guardar">
+          <i class="pre-click" id="cross" aria-hidden="true"></i>
+        </div> 
+      </div>
     </section>
+    <!--plantilla para clonarlo en el javascript-->
+    <div id="columnaS" style="display:none;" class="initial-pre-click">
+        <div id="form" class="form-pre-click">
+          <form action="index.html" method="post">
+            <input type="text" id="input" class="input-pre-click" placeholder="Añadir una lista...." >
+          </form>
+          <input type="submit" id="button" class="pre-click" value="Guardar">
+          <i class="pre-click" id="cross" aria-hidden="true"></i>
+        </div> 
+      </div>
     <!--Enlazamos nuestro archivo js extero para darle animacion a cada elemento-->
     <script type="text/javascript" src="js/app.js"></script>
   </body>

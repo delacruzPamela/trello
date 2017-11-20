@@ -100,5 +100,99 @@ header {
     margin-left: 950px; 
 }
 
-/*STYLE FOR THE CREATE CONTAINER NEW*/
+/*STYLE FOR THE CREATE CONTAINER NEW LISTantes del click*/
+#main-menu {
+    margin: 0 10px 0 10px;
+}
+.input-pre-click, .initial-pre-click {
+    /*outline: 1px solid white;*/
+    width: 265px;
+    height: 35px;
+    color: rgb(133, 132, 132);
+    font-weight: bold;
+    background-color: rgba(80, 79, 79, 0.7);
+    padding: 0 8px 0 8px;
+    border-radius: 5px;
+    text-align: left;
+    border: none;
+    font-size: 16px;
+  }
+
+  .input-pre-click:hover {
+    background-color: rgba(61, 60, 60, 0.7);
+  }
+
+  .pre-click {
+    display: none;
+  }
+
+/*STYLE FOR THE NEW CARD THE FIRST LIST*/
+.form-post-click {
+    width: 280px;
+    background-color: #d1d1d1;
+    border-radius: 3px;
+    display: inline-block;
+    float: left;
+    padding: 5px;
+    overflow: auto;
+    margin-right: 15px;
+    overflow: hidden;
+  }
+
+  .input-post-click {
+    background: linear-gradient(#cdcfd0, #d6d8da);
+    border: 1px solid #998e96;
+    float: left;
+    margin-bottom: 5px;
+    font-family: 'Asul', sans-serif;
+  }
+  .input-post-click::placeholder {
+    color: rgb(31, 30, 30);
+  }
+  
+  .button-post-click {
+    width: 75px;
+    height: 32px;
+    border: none;
+    background-color: #5aac44;
+    border-radius: 3px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .paragraph {
+    width: 320px;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 8px 8px;
+    background: linear-gradient(#F2F2F2,#E6E6E6);
+    float: left;
+    margin-bottom: 5px;
+    font-family: 'Asul', sans-serif;
+    word-wrap: break-word;
+  }
+  
+  .name-list {
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+  }
+  .underline {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .textarea-card {
+    font-family: 'Asul', sans-serif;
+    border: none;
+    width: 300px;
+    height: 60px;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #fff;
+  }
+
+
 
